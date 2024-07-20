@@ -1,0 +1,8 @@
+{
+  "/report/page": "app/report/page.js",
+  "/clientInfo/[index]/page": "app/clientInfo/[index]/page.js",
+  "/home/page": "app/home/page.js",
+  "/addClient/page": "app/addClient/page.js",
+  "/dashboard/client/page": "app/dashboard/client/page.js",
+  "/dashboard/payment/page": "app/dashboard/payment/page.js"
+}

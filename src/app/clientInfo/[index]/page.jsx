@@ -172,7 +172,7 @@ const tableData = initializeTableData().filter((row) => row.amount > 0);
             <Loader />
           </div>
         ) : (
-          <div className='px-4'>
+          <div className='px-4 w-[80%] lg:ml-48' >
             {client ? (
               <div className='flex flex-col'>
                 <div className="home bg-white text-black w-full py-32">

@@ -35,7 +35,7 @@ function Client() {
   }
 
   return (
-    <div className=''>
+    <div className='w-[90%] lg:ml-48'>
       <div className="search lg:flex mt-10 lg:ml-10">
         <div className='lg:flex flex float-right lg:mt-0 mt-5'>
           <MagnifyingGlassIcon className='w-12 h-12 ml-6 p-3 bg-brown-default' onClick={handleSearch}/>

@@ -55,7 +55,7 @@ function Login() {
 
   return (
     <div className="home bg-grey-light text-black w-full h-screen pt-12">
-      <div className="bg-white lg:w-4/12 lg:ml-[400px] lg:h-[500px] w-10/12">
+      <div className="bg-white lg:w-4/12 items-center lg:h-[40vw] w-10/12">
         <form onSubmit={handleSubmit} className="ml-8 py-32 pt-8">
           <Image src={logo} width={140} height={140} alt="logo" className="ml-32" />
           <h1 className="font-bold text-2xl ml-24">Admin Login</h1>

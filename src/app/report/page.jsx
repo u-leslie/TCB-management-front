@@ -43,7 +43,7 @@ function Report() {
       <Navbar />
       <div className='flex'>
         <Sidebar />
-        <div className='home bg-white pt-20 pb-20 text-black w-full'>
+        <div className='home bg-white pt-20 pb-20 text-black w-[80%] lg:ml-48'>
           <div className='search flex lg:flex-row lg:ml-56 mt-10 border rounded-lg lg:w-7/12'>
             <Image src={logo} alt='logo' className='w-24 h-10 ml-6 mt-1' />
             <input

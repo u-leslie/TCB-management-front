@@ -19,8 +19,8 @@ function AppBar() {
   
 
   return (
-    <div className='lg:w-[1000px] pt-20'>
-    <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 mt-10 lg:ml-10 ml-4'>
+    <div className='lg:w-[100%]'>
+    <div className='grid lg:grid-cols-3 grid-cols-1 gap-32 mt-32 lg:ml-48 ml-4'>
       <Card
       title="Daily records"
       desc="Daily payment of rent charges"
@@ -40,7 +40,7 @@ function AppBar() {
       ppl={50}
       />
     </div>
-    <div className="button items-center justify-center mt-10 lg:flex gap-3 flex lg:float-none float-left ">
+    <div className="button items-center justify-center mt-10 lg:flex lg:ml-48 gap-3 flex lg:float-none float-left ">
     <AppLink href='/dashboard/client'>
       Client
     </AppLink>

@@ -6,11 +6,11 @@ import Sidebar from '../sidebar/Sidebar';
 
 const Layout = ({ children }) => {
   return (
-    <div className=''>
+    <div className='w-full'>
     <Navbar/>
-    <div className='flex'>
+    <div className='flex float-left'>
       <Sidebar/>
-    <div className="home w-full  bg-white text-black">
+    <div className="home w-[90%] float-right bg-white text-black">
     <AppBar/>
     <div className="content">{children}</div>
     </div>

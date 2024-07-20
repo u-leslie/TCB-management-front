@@ -63,7 +63,7 @@ function AddClient() {
       <Navbar />
       <div className='flex'>
         <Sidebar />
-        <div className='home bg-white text-black w-full'>
+        <div className='home bg-white text-black w-[80%] lg:ml-48'>
           <div className=' w-9/12 ml-40'>
           <h1 className='font-bold text-2xl text-center text-black mt-24'>Register new client</h1>
 

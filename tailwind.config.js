@@ -14,8 +14,8 @@ module.exports = {
       },
       colors:{
         yellow:{
-           default:"#FFDD44",
-           side:"#FDE74C",
+          default:"#5B7C99",
+           side:"#434343",
          },
         grey:{
          default:"#5B7C99",

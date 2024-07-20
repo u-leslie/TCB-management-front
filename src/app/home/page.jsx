@@ -12,7 +12,7 @@ import { MagnifyingGlassIcon} from '@heroicons/react/24/solid'
 
 function page() {
   return (
-    <div className='h-screen'>
+    <div className='h-screen '>
     <Navbar/>
     <div className='flex'>
       <Sidebar/>

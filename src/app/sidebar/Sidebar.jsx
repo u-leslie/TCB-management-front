@@ -11,7 +11,7 @@ const NavLink = ({ href, children, icon }) => {
   const isActive = currentRoute === href;
 
   return (
-    <li className={`flex ${isActive ? 'bg-white text-brown-default pr-6 py-3 rounded-l-3xl ' : 'text-black pr-6'}`}>
+    <li className={`flex ${isActive ? 'bg-white text-black pr-6 py-3 rounded-l-3xl ' : 'text-white pr-6'}`}>
       {icon && React.cloneElement(icon, { className: 'w-6 h-6 ml-4' })}
       <Link href={href} className='ml-2'>{children}</Link>
     </li>
@@ -26,7 +26,7 @@ function Sidebar() {
   };
 
   return (
-    <div className="bg-yellow-default">
+    <div className="bg-yellow-default h-screen fixed">
       <div className="links pt-40 ">
        
         <div className="lg:hidden text-white cursor-pointer" onClick={toggleMenu}>
@@ -34,14 +34,14 @@ function Sidebar() {
         </div>
 
         
-        <ul className={`flex flex-col gap-y-16 pl-4 lg:flex ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <NavLink href="/home" icon={<BiHome />}>
+        <ul className={`flex flex-col gap-y-8 pl-4 lg:flex ${isMenuOpen ? 'block' : 'hidden'}`}>
+          {/* <NavLink href="/home" icon={<BiHome />}>
             Home
+          </NavLink> */}
+          <NavLink href='/dashboard/client' icon={<BiSolidDashboard  />}>
+           <h2> Dashboard</h2>
           </NavLink>
-          <NavLink href='/dashboard/client' icon={<BiSolidDashboard />}>
-            Dashboard
-          </NavLink>
-          <NavLink href="/report" icon={<Image src={report} width={24} height={24} alt="logo" className="ml-10" />}>
+          <NavLink href="/report" icon={<Image src={report} width={20} height={20} alt="logo" className="ml-10" />}>
             Report
           </NavLink>
         </ul>

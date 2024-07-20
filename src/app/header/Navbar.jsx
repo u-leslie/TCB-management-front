@@ -4,7 +4,7 @@ import logo from '../../../public/assets/logo.png'
 
 function Navbar() {
   return (
-    <div className='w-full bg-white shadow-md h-16 fixed'>
+    <div className='w-full bg-white shadow-md h-16 z-[9999] fixed'>
       <Image
           src={logo}
           width={130}
